@@ -1,0 +1,23 @@
+{
+    "presentationId": "beachocean55022.flipcounter",
+    "manufacturerName": "beachocean55022",
+    "vid": "beachocean55022.flipcounter",
+    "version": 1,
+    "components": [
+      {
+        "id": "main",
+        "capabilities": [
+          {
+            "id": "beachocean55022.flipcounter",
+            "version": 1
+          }
+        ],
+        "categories": [
+          {
+            "name": "Switch"
+          }
+        ]
+      }
+    ]
+}
+  

@@ -1,0 +1,37 @@
+{
+    "name": "Flip Counter",
+    "attributes": {
+        "count": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setCount",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setCount": {
+            "name": "setCount",
+            "arguments": [
+                {
+                    "name": "count",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ]
+        }
+    }
+}

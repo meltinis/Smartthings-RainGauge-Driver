@@ -1,0 +1,6 @@
+name: 'Zigbee Contact For RainGauge'
+packageKey: 'zigbee-rain'
+permissions:
+  zigbee: {}
+description: "SmartThings driver for Zigbee rain device"
+vendorSupportInformation: "https://support.smartthings.com"

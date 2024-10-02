@@ -1,0 +1,6 @@
+zigbeeManufacturer:
+  - id: "lumi/lumi.sensor_magnet.aq2"
+    deviceLabel: Aqara Door and Window Sensor T1
+    manufacturer: LUMI
+    model: lumi.sensor_magnet.aq2
+    deviceProfileName: contact-battery-profile
